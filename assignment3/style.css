@@ -1,0 +1,63 @@
+/* Assignment 3 - Basic CSS */
+
+body {
+  background-color: #f2f2f2;
+  color: #222222;
+}
+
+header {
+  background-color: #990000;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  background-color: #990000;
+}
+
+h2 {
+  color: #990000;
+  background-color: #dddddd;
+}
+
+h3 {
+  color: #660000;
+}
+
+p {
+  color: #222222;
+}
+
+#pageintro {
+  background-color: #eeeeee;
+}
+
+.highlight {
+  color: #990000;
+}
+
+.contentbox {
+  background-color: #ffffff;
+}
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #008000;
+}
+
+a:active {
+  color: #0000ff;
+}
+
+a:hover {
+  color: #ffff00;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #990000;
+  color: #ffffff;
+}
