@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e59a9a;
+  background-image: url("a62.png");
+}
+
+#wrapper {
+  width: 1200px;
+  margin: 16px auto;
+  padding: 16px;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  grid-template-rows: auto auto auto;
+  box-sizing: border-box;
+}
+
+header {
+  grid-column: span 2;
+  background-color: #000000;
+  padding: 24px 18px;
+  margin-bottom: 14px;
+}
+
+h1 {
+  margin: 0;
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+nav {
+  grid-column: span 1;
+  padding-right: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 0 15px 0;
+}
+
+nav li a {
+  display: block;
+  padding: 16px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav li a:visited {
+  color: #ffffff;
+}
+
+nav li a:hover {
+  background-color: #990000;
+  color: #ffffff;
+}
+
+main {
+  grid-column: span 1;
+  min-width: 0;
+}
+
+h2 {
+  margin: 0 0 20px 0;
+  padding: 0 0 8px 0;
+  border-bottom: 3px solid #000000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 26px;
+}
+
+main p {
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: justify;
+}
+
+.topcontent {
+  display: grid;
+  grid-template-columns: 52% 48%;
+  margin-bottom: 8px;
+}
+
+.topcontent img {
+  width: calc(100% - 14px);
+  height: auto;
+  display: block;
+  border: 3px solid #000000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.instructions {
+  padding-left: 15px;
+}
+
+.instructions p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.05;
+}
+
+main > p {
+  margin-top: 12px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 1.15;
+}
+
+main a:link,
+main a:visited {
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+footer {
+  grid-column: span 2;
+  background-color: #ff0000;
+  border-top: 3px solid #000000;
+  margin: 0 -16px -16px -16px;
+  padding: 14px 20px;
+}
+
+footer p {
+  margin: 0;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
