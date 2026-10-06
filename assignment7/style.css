@@ -1,0 +1,34 @@
+/* Shared styles for all three pages. */
+* { box-sizing: border-box; }
+body { background: #999; margin: 0; color: #000; font-family: Georgia, serif; }
+#wrapper { width: 1208px; max-width: calc(100% - 32px); margin: 16px auto; border: 4px solid #0046a7; background: white; }
+header { background: linear-gradient(#0089e5, #00499e); padding: 29px 30px; }
+h1 { margin: 0; font: italic bold 36px Arial, Helvetica, sans-serif; }
+h1 a { color: #78c9f5; text-decoration: none; }
+h1 a:hover { color: white; }
+nav { background: linear-gradient(#0089e5, #00499e); border-bottom: 2px solid #0046a7; }
+nav ul { margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); list-style: none; }
+nav li { border-right: 5px solid #00499e; }
+nav a { display: block; padding: 10px 30px; color: #78c9f5; text-decoration: none; font: bold 20px Arial, Helvetica, sans-serif; }
+nav a[aria-current="page"] { color: white; }
+nav a:hover { color: white; background: linear-gradient(#0057a8, #002a6e); }
+main.two-column { display: grid; grid-template-columns: 1fr 2fr; }
+main.about { grid-template-columns: 2fr 1fr; }
+article, aside { padding: 16px; }
+aside { background: lightblue; }
+aside p { font-weight: bold; text-align: justify; }
+h2 { font: normal 24px Arial, Helvetica, sans-serif; color: #0036a0; border-bottom: 3px solid #0046a7; padding-bottom: 5px; margin: 0 0 20px; }
+p { font-size: 16px; line-height: 18px; margin: 0 0 16px; }
+main a { color: red; text-decoration: none; font-weight: bold; }
+main a:hover { color: #0046a7; text-decoration: underline; }
+.feature { width: 406px; max-width: 55%; border: 3px solid #0046a7; }
+.float-left { float: left; margin: 0 20px 12px 0; }
+.float-right { float: right; margin: 0 0 12px 20px; }
+article::after { content: ""; display: block; clear: both; }
+.gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; padding: 16px; }
+.gallery article { padding: 0; }
+.gallery img { display: block; width: 100%; height: auto; margin-bottom: 20px; }
+footer { border-top: 4px solid #0046a7; background: #d71900; padding: 12px; }
+footer img { display: block; width: 282px; height: 80px; }
+a:focus-visible { outline: 3px solid #ffda00; outline-offset: -3px; }
+@media (max-width: 760px) { header { padding: 24px 16px; } h1 { font-size: 28px; } nav ul { grid-template-columns: repeat(3, 1fr); } nav a { padding: 12px 8px; font-size: 16px; } main.two-column, main.about, .gallery { grid-template-columns: 1fr; } .feature { max-width: 55%; } }
