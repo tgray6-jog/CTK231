@@ -1,0 +1,7 @@
+IMPORTANT: This is the portfolio, not the old HTML practice exercise.
+
+1. Extract this entire ZIP into a NEW folder (do not merge with an older assignment folder).
+2. Open index.html OR Blank1200px.html from THIS new folder. Both show the portfolio.
+3. The stylesheet and images folder must remain next to the HTML files.
+4. If you see "This header is Helvetica and is not bold", you opened a different older exercise file. Close it and open the file from this folder.
+5. If still seeing the old page, check the browser address bar for the actual file path and use Ctrl+Shift+R.
