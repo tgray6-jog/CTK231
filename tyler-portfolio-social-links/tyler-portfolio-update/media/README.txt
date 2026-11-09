@@ -1,0 +1,1 @@
+Place your own audio file here named my-audio.mp3 and your own video named my-video.mp4. Alternatively, edit the source paths in index.html to match your actual filenames. The audio and video players will not play until you add those files.
